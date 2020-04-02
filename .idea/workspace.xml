@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="29682cd6-06c9-4ff4-aec6-77e0193c307c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution>
+      <executable />
+    </execution>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Zsz9B308G18MhhcYTtIxZGM4qI" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/dependencies" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\wordpress\wp-content\plugins\comments_plugin\dependencies" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="29682cd6-06c9-4ff4-aec6-77e0193c307c" name="Default Changelist" comment="" />
+      <created>1585642435344</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585642435344</updated>
+      <workItem from="1585642437470" duration="10141000" />
+      <workItem from="1585727429687" duration="13577000" />
+      <workItem from="1585813217178" duration="10968000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="794" y="479" key="NewPhpFileDialog" timestamp="1585644464621">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="794" y="479" key="NewPhpFileDialog/0.30.1920.1050/240.-1080.1280.689@0.30.1920.1050" timestamp="1585644464621" />
+    <state x="616" y="258" key="run.anything.popup" timestamp="1585733423017">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="616" y="258" key="run.anything.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1585733423017" />
+    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1585733581569">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1585733581569" />
+  </component>
+</project>
