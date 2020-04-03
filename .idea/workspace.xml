@@ -2,205 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="29682cd6-06c9-4ff4-aec6-77e0193c307c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/.travis.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/CONTRIBUTING.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/Gruntfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/ISSUE_TEMPLATE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/ROADMAP.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/_config.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/bower.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/dist/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/dist/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/dist/assets/ajax-loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/dist/assets/owl.theme.green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/dist/assets/owl.theme.green.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/dist/assets/owl.video.play.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/dist/owl.carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/dist/owl.carousel.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/assets/css/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/assets/css/docs.theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/assets/img/bird_blue_32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/assets/img/download.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/assets/img/feature-drag.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/assets/img/feature-modern.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/assets/img/feature-module.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/assets/img/feature-options.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/assets/img/feature-responsive.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/assets/img/feature-zombie.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/assets/img/owl-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/assets/img/twitter_25.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/assets/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/assets/js/foundation.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/assets/owlcarousel/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/ajax-loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.carousel.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.carousel.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.default.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.green.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.theme.green.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/assets/owlcarousel/assets/owl.video.play.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/assets/owlcarousel/owl.carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/assets/owlcarousel/owl.carousel.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/assets/vendors/foundation.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/assets/vendors/highlight.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/assets/vendors/jquery.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/assets/vendors/jquery.mousewheel.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/demos/animate.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/demos/autoheight.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/demos/autoplay.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/demos/autowidth.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/demos/basic.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/demos/center.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/demos/demos.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/demos/events.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/demos/lazyLoad.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/demos/merge.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/demos/mousewheel.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/demos/responsive.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/demos/rtl.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/demos/stagepadding.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/demos/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/demos/urlhashnav.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/demos/video.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/docs/api-classes.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/docs/api-events.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/docs/api-options.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/docs/dev-buildin-plugins.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/docs/dev-external.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/docs/dev-plugin-api.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/docs/dev-styles.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/docs/started-faq.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/docs/started-installation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/docs/started-welcome.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/docs/support-changelog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/docs/support-contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/docs/support-contributing.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/assets/css/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/assets/img/bird_blue_32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/assets/img/download.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/assets/img/feature-drag.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/assets/img/feature-modern.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/assets/img/feature-module.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/assets/img/feature-options.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/assets/img/feature-responsive.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/assets/img/feature-zombie.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/assets/img/owl-logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/assets/img/twitter_25.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/assets/js/app.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/assets/js/foundation.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/assets/scss/_settings.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/assets/scss/custom.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/assets/scss/demos.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/assets/scss/docs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/assets/scss/docs.theme.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/assets/scss/highlight.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/assets/vendors/foundation.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/assets/vendors/highlight.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/assets/vendors/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/assets/vendors/jquery.min.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/assets/vendors/jquery.mousewheel.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/data/classes.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/data/events.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/data/features.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/data/options.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/helpers/modulo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/helpers/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/templates/layouts/demos.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/templates/layouts/docs.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/templates/layouts/home.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/animate.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/autoheight.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/autoplay.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/autowidth.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/basic.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/center.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/demos.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/events.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/lazyLoad.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/merge.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/mousewheel.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/responsive.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/rtl.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/stagepadding.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/test.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/urlhashnav.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/templates/pages/demos/video.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/api-classes.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/api-events.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/api-options.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/dev-buildin-plugins.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/dev-external.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/dev-plugin-api.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/dev-styles.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/started-faq.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/started-installation.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/started-welcome.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/support-changelog.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/support-contact.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/templates/pages/docs/support-contributing.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/templates/pages/index.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/templates/partials/footer.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/templates/partials/head.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/templates/partials/header.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/templates/partials/home-carousel.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/templates/partials/home-features.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/templates/partials/home-hero.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/templates/partials/home-teaser-text.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/templates/partials/javascripts.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/templates/partials/releated-docs.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/templates/partials/sidenav-docs.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/templates/partials/title.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/docs_src/templates/partials/vendors.hbs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/src/img/ajax-loader.gif" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/src/img/owl.video.play.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/src/js/.jscsrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/src/js/.jshintrc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/src/js/owl.animate.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/src/js/owl.autoheight.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/src/js/owl.autoplay.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/src/js/owl.autorefresh.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/src/js/owl.carousel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/src/js/owl.hash.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/src/js/owl.lazyload.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/src/js/owl.navigation.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/src/js/owl.support.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/src/js/owl.support.modernizr.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/src/js/owl.video.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/src/scss/_animate.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/src/scss/_autoheight.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/src/scss/_core.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/src/scss/_lazyload.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/src/scss/_theme.default.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/src/scss/_theme.green.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/src/scss/_theme.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/src/scss/_video.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/src/scss/owl.carousel.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/src/scss/owl.theme.default.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/src/scss/owl.theme.green.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/test/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/test/unit/autoplay.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/OwlCarousel2-2.3.4/test/unit/core.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dependencies/animate/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/front/comments.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HandleData.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/HandleData.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/admin/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/admin/main.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -268,7 +73,7 @@
       <workItem from="1585642437470" duration="10141000" />
       <workItem from="1585727429687" duration="13577000" />
       <workItem from="1585813217178" duration="11130000" />
-      <workItem from="1585900152257" duration="4738000" />
+      <workItem from="1585900152257" duration="6686000" />
     </task>
     <servers />
   </component>
@@ -294,12 +99,21 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="php-line-method">
           <url>file://$PROJECT_DIR$/index.php</url>
-          <line>155</line>
+          <line>159</line>
           <properties>
             <option name="className" value="\PluginsMainClass" />
             <option name="methodName" value="assets" />
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="php-line-method">
+          <url>file://$PROJECT_DIR$/index.php</url>
+          <line>65</line>
+          <properties>
+            <option name="className" value="\PluginsMainClass" />
+            <option name="methodName" value="admin_assets" />
+          </properties>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

@@ -111,6 +111,10 @@ class PluginsMainClass extends HandleData
                 'url' => 'http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.css',
             ],
             [
+                'name' => 'comments-plugins-comment-css-3',
+                'url' => 'https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css',
+            ],
+            [
                 'name' => 'comments-plugins-comment',
                 'url' => 'https://cdnjs.cloudflare.com/ajax/libs/angular-ui-select/0.20.0/select.min.css',
             ],

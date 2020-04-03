@@ -256,6 +256,11 @@ TOAST
     font-size: 1.2rem;
 }
 
+.ui-select-dropdown{
+   display: block !important;
+
+}
+
 /*Responsive Design*/
 
 @media all and (max-width: 240px) {
