@@ -41,6 +41,10 @@ class PluginsMainClass extends HandleData
         add_action('wp_ajax_get_comments', array($this, 'GetComments'));
         add_action('wp_ajax_nopriv_get_comments', array($this, 'GetComments'));
 
+        // [bartag foo="foo-value"]
+
+        add_shortcode('comments_plugin', array($this, 'ShortCode'));
+
 //        add_action('wp_ajax_nopriv_get_source_tag', array($this, 'SearchTag'));
 
 
@@ -152,6 +156,61 @@ class PluginsMainClass extends HandleData
     public function assets()
     {
 
+        $list_js = [
+            [
+                'name' => 'comments-plugins-comment-front',
+                'url' => plugin_dir_url(__FILE__) . 'dependencies/OwlCarousel2-2.3.4/dist/owl.carousel.js',
+                'load' => true
+            ],
+            [
+                'name' => 'comments-plugins-comment-front',
+                'url' => plugin_dir_url(__FILE__) . 'assets/js/main.js',
+                'load' => true
+            ]
+        ];
+
+        $list_css = [
+            [
+                'name' => 'comments-plugins-comment-front',
+                'url' => plugin_dir_url(__FILE__) . 'dependencies/OwlCarousel2-2.3.4/dist/assets/owl.carousel.css'
+            ],
+            [
+                'name' => 'comments-plugins-comment-front',
+                'url' => plugin_dir_url(__FILE__) . 'dependencies/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.css'
+            ],
+            [
+                'name' => 'comments-plugins-comment-front',
+                'url' => plugin_dir_url(__FILE__) . 'dependencies/animate/animate.css'
+            ],
+            [
+                'name' => 'comments-plugins-comment-front',
+                'url' => plugin_dir_url(__FILE__) . 'assets/css/main.css'
+            ],
+        ];
+
+        /**
+         * Register Styles
+         */
+
+        $count_css = 0;
+        foreach ($list_css as $css) {
+            $count_css++;
+            wp_register_style($css['name'] . '_' . $count_css,
+                $css['url']);
+            wp_enqueue_style($css['name'] . '_' . $count_css);
+        }
+        /**
+         * Register JS
+         */
+        $count_js = 0;
+        foreach ($list_js as $js) {
+            $count_js++;
+            wp_register_script($js['name'] . '_' . $count_js,
+                $js['url'],
+                array(), '1.0.0', $js['load']);
+            wp_enqueue_script($js['name'] . '_' . $count_js);
+
+        }
 
     }
 
@@ -227,6 +286,19 @@ class PluginsMainClass extends HandleData
             echo json_encode(['error' => $e->getMessage()]);
         }
 
+    }
+
+// aaa  [comments_plugin mode="products" id="10"]
+    public function ShortCode($atts)
+    {
+        try {
+            $mode = $atts['mode'];
+            $id = ($atts && $atts['id']) ? $atts['id'] : get_the_ID();
+            $data = parent::GetDataShort($mode, $id);
+            return $data;
+        } catch (Exception $e) {
+            return $e->getMessage();
+        }
     }
 
     public function AddComment($comment = '', $source = [])

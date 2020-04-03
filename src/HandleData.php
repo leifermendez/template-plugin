@@ -68,6 +68,7 @@ class HandleData
                 $table = $wpdb->prefix . self::$DB_COMMENTS_RELATIONS; // wp_comments_plugin
                 $data = array(
                     'comment_id' => $id_comment,
+                    'extra' => $src['id'],
                     'source' => $src['source']
                 );
 
@@ -75,6 +76,33 @@ class HandleData
             }
 
             return array('id' => $id_comment);
+
+        } catch (Exception $e) {
+            return $e->getMessage();
+        }
+    }
+
+    protected function GetDataShort($source = null, $id = null)
+    {
+        try {
+            global $wpdb;
+            $table_comments_relations = $wpdb->prefix . self::$DB_COMMENTS_RELATIONS;
+            $table_comments = $wpdb->prefix . self::$DB_COMMENTS; // wp_comments_plugin
+
+            $data = $wpdb->get_results("SELECT c.*,r.source FROM $table_comments_relations as r 
+                        INNER JOIN $table_comments as c ON c.id = r.comment_id WHERE
+                         r.extra = $id AND r.source = '" . $source . "'");
+
+
+            if (!empty($data)) {
+                ob_start();
+                include(__DIR__ . "/../template/front/comments.php");
+                $html = ob_get_clean();
+                echo $html;
+            } else {
+                return null;
+            }
+
 
         } catch (Exception $e) {
             return $e->getMessage();
@@ -152,8 +180,8 @@ class HandleData
                     $parse_extra = json_decode($data[$key]['extra'], 1);
                     $data[$key]['extra'] = $parse_extra;
                 }
-                if($data[$key]['tags']){
-                    $data[$key]['tags'] = explode(',',$data[$key]['tags']);
+                if ($data[$key]['tags']) {
+                    $data[$key]['tags'] = explode(',', $data[$key]['tags']);
                 }
             }
 

@@ -99,6 +99,7 @@ angular.module('todoApp', ['ui.select', 'ngSanitize'])
                 data: $httpParamSerializerJQLike({
                     action: 'other_comment_data',
                     comment: vm.comment,
+                    id_source: vm.comment,
                     select: vm.selectItem.selected,
                     vote: vm.starts.selected.vote,
                     user_mocked: $scope.userMocked
